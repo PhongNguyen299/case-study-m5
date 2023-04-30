@@ -1,0 +1,126 @@
+.product-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product-edit-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-edit-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.product-edit-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product-edit-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.product-edit-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-edit-back-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-edit-back-button:hover {
+    background-color: #aaa;
+}
+
+.product-edit-submit-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-edit-submit-button:hover {
+    background-color: #0069d9;
+}
+
+.product-edit-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.product-edit-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.product-edit-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.product-edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-edit-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.product-edit-back-button, .product-edit-submit-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-edit-back-button {
+    /*background-color: #ccc;*/
+    color: #333;
+    border: none;
+}
+
+.product-edit-submit-button {
+    background-color: rgba(0, 105, 217, 0.79);
+    color: #fff;
+    border: none;
+}

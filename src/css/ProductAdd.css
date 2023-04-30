@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px ;
+    margin: auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    box-shadow: none;
+}
+
+button {
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
+}
+
+.cancel-btn:hover {
+    background-color: #c82333;
+}
